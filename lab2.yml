@@ -1,0 +1,6 @@
+---
+- hosts: servers
+  tasks:
+  - name: Execute the bash script
+    shell: sh bashscript.sh > bashoutput
+# git demo
